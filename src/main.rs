@@ -1,3 +1,11 @@
+use wpilib::RobotBase;
+
 fn main() {
-    println!("Hello, world!");
+    let robot = RobotBase::new().expect("HAL FAILED");
+
+    // Setup
+    
+    RobotBase::start_competition();
+
+    // In match code
 }
