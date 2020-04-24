@@ -1,0 +1,2 @@
+*.c lingust-detectable = false
+*.rs linguist-detectable = true
