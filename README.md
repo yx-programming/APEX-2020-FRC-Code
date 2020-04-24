@@ -13,4 +13,4 @@ We chose Rust this year for a few reasons:
 The C HAL is already included in the project, so to **build** for a RoboRIO you need to run `rustup target add arm-unknown-linux-gnueabi`, and then `cargo build` should build the code.
 
 If you want to **deploy** the code to a RoboRIO for testing, you need to run `cargo install cargo-frc` to install the deployer, and then run `cargo frc deploy` to deploy to a robot.
-> Note: for this to work properly, you will have to edit metadata in `cargo.toml` check out [cargo-frc](https://crates.io/crates/cargo-frc) for more details.
+> Note: for this to work properly, you will have to edit metadata in `cargo.toml`, check out [cargo-frc](https://crates.io/crates/cargo-frc) for more details.
