@@ -1,2 +1,1 @@
-*.c lingust-detectable = false
-*.rs linguist-detectable = true
+frc2020/* lingust-detectable = false
